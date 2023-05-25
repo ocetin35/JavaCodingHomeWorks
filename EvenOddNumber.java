@@ -1,4 +1,4 @@
-public class Week1 {
+public class EvenOddNumber {
 
     public static String identify(int number) {
 
@@ -20,7 +20,6 @@ public class Week1 {
 
         System.out.println(identify(number1)); // Output: Odd
         System.out.println(identify(number2)); // Output: Even
-
 
     }
 }
