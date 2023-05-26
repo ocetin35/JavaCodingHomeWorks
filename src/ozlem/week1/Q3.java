@@ -1,4 +1,4 @@
-package week1;
+package ozlem.week1;
 
 public class Q3 {
     /*
