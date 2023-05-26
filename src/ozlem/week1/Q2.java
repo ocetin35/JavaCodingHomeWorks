@@ -23,5 +23,10 @@ Divide without / operator:
 
     }
 
+    public static void main(String[] args) {
+        division(10,3);
+    }
+
 
 }
+
