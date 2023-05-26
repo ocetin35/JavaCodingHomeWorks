@@ -1,3 +1,5 @@
+package emre.week1;
+
 public class EvenOddNumber {
 
     public static String identify(int number) {

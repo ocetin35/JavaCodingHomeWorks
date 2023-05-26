@@ -1,3 +1,5 @@
+package emre.week1;
+
 public class Finra {
 
     public static void printNumbers() {
