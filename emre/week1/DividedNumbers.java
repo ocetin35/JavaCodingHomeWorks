@@ -1,6 +1,7 @@
-package emre.week1;
-
+package emre.week1
 import java.util.Scanner;
+
+
 public class DividedNumbers {
 
     public static void main(String[] args) {
