@@ -13,7 +13,7 @@ public class Q1DividWithoutOperator {
             }
             System.out.println(count + " with a reminder of " + a);
 
-            System.out.println("_______________________________________________________________");
+            System.out.println("_________________________________________________________________");
 
             int dividend = 60;
             int divisor = 5;
