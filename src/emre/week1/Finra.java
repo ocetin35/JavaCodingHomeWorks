@@ -1,4 +1,4 @@
-package week1;
+package emre.week1;
 
 public class Finra {
 

@@ -1,4 +1,4 @@
-package week2;
+package emre.week2;
 
 public class DivisibleNumbers {
         public static void main(String[] args) {
