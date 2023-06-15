@@ -12,7 +12,6 @@ public class task1 {
 
         int[] counts = new int[26];
 
-
         for (int i = 0; i < str1.length(); i++) {
             char c = str1.charAt(i);
             counts[c - 'a']++;
