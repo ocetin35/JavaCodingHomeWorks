@@ -15,7 +15,6 @@ public class PrimeNumbers {
         }else{
             System.out.println(number + " is not a prime number");
         }
-
     }
     public static boolean isPrime(int number){
 
