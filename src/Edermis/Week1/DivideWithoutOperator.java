@@ -1,6 +1,6 @@
-public class NumberDivideWithoutOperator {
+package Edermis.Week1;
 
-
+public class DivideWithoutOperator {
     public static void divide(int dividend, int divisor) {
         if (divisor == 0) {
             System.out.println("Invalid Number");
@@ -20,8 +20,5 @@ public class NumberDivideWithoutOperator {
     }
 }
 
-/*
-Write a method that can divide two numbers without using division operator
+//Write a method that can divide two numbers without using division operator
 
-
- */
