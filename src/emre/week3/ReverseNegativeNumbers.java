@@ -5,7 +5,8 @@ public class ReverseNegativeNumbers {
     public static void main(String[] args) {
         int number = 987654;
         int reversedNumber = reverseNegative(number);
-        System.out.println("The reverse of the given number is: " + "-" + reversedNumber);
+        int reversedNegativeNumber = -1 * reversedNumber;
+        System.out.println("The reverse of the given number is: " + reversedNegativeNumber);
     }
 
     public static int reverseNegative(int number) {
@@ -21,7 +22,7 @@ public class ReverseNegativeNumbers {
             number = number / 10;
         }
 
-        return isNegative ? -reverse : reverse; // Restore the sign if the original number was negative
+       return isNegative ? -reverse : reverse; // Restore the sign if the original number was negative
     }
 }
 
