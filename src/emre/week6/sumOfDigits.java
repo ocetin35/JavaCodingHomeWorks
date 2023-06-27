@@ -3,6 +3,7 @@ package emre.week6;
 public class sumOfDigits {
 
         public static int calculateDigitSum(String input) {
+
             int sum = 0;
             for (int i = 0; i < input.length(); i++) {
                 char c = input.charAt(i);

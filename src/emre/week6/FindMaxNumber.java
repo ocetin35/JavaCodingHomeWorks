@@ -1,6 +1,7 @@
 package emre.week6;
 
 public class FindMaxNumber {
+
     public static int findMaximum(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array must not be null or empty.");

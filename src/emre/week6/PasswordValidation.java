@@ -3,6 +3,7 @@ package emre.week6;
 public class PasswordValidation {
 
     public static boolean isValidPassword(String password) {
+
         // Check password length and presence of space
         if (password.length() < 6 || password.contains(" ")) {
             return false;
