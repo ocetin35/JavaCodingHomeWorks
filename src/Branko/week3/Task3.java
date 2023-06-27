@@ -25,7 +25,7 @@ Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
                     }
                 }
 
-                result += "" + count + word.charAt(i);
+                result += "" + word.charAt(i) + count  ;
 
 
             }
@@ -34,7 +34,7 @@ Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
         }
 
         public static void main(String[] args) {
-            System.out.println(FrequencyOfChars("AASSSH"));
+            System.out.println(FrequencyOfChars("$AASSSH"));
 
         }
 
